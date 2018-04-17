@@ -3,6 +3,7 @@ var animal = 'dog';
 function myAnimal() {
   return animal;
 }
+myAnimal();
 
 
 function yourAnimal() {
@@ -12,6 +13,7 @@ function yourAnimal() {
   var animal = "cat";
   return animal;
 }
+yourAnimal();
 
 
 function add2(n) {
@@ -22,6 +24,8 @@ function add2(n) {
   
   return n + two;
 }
+ add2(n);
+
 
 
 
@@ -35,4 +39,8 @@ var funkyFunction = function() {
 // NOTE: you only need to modify the code below this line.
 
 
+<<<<<<< HEAD
 var theFunk = funkyFunction()()
+=======
+theFunk=funkyFunction()()
+>>>>>>> 599e9ffbfdd8b31d7d12d8db6a7e004a34409e53
